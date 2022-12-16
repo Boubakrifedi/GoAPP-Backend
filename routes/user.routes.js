@@ -20,7 +20,6 @@ router.delete("/:id", userController.deleteUser);
 router.patch("/follow/:id", userController.follow);
 router.patch("/unfollow/:id", userController.unfollow);
 router.patch("/remove/:id", userController.remove);
-router.get("/:id", userController.userInfo);
 
 
 // upload
